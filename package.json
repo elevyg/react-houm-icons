@@ -1,0 +1,9 @@
+{
+  "name": "houm-icons",
+  "version": "1.0.0",
+  "description": "set of houm icons for react and react native",
+  "main": "index.js",
+  "author": "Eyal Levy",
+  "license": "MIT",
+  "private": false
+}
