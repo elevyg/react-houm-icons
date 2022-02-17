@@ -5,5 +5,16 @@
   "main": "index.js",
   "author": "Eyal Levy",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@svgr/cli": "^6.2.1",
+    "@svgr/core": "^6.2.1",
+    "eslint": "^8.9.0",
+    "svgo": "^2.8.0",
+    "@types/react": "^17.0.38",
+    "@types/react-native": "^0.66.13",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {}
 }
