@@ -1,5 +1,6 @@
 const base = "./Icons/";
 
+export const Icons = {
   "add-circle": require(base + "add-circle").default,
   "add": require(base + "add").default,
   "airplane": require(base + "airplane").default,

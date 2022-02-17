@@ -19,11 +19,12 @@ npx @svgr/cli --native --icon --no-prettier --filename-case kebab --replace-attr
 
 echo "Done transforming icons"
 
+rm map.ts
 
 printf "\e[1m\e[92mCreating the map...\e[0m\n"
 echo "const base = \"./Icons/\";" > map.ts
 echo >> map.ts
-echo "export const Icons = {" >> map.js
+echo "export const Icons = {" >> map.ts
 for file in Icons/*.js
 do
   base_name=$(basename ${file%.js})
